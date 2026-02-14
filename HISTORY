@@ -1,6 +1,14 @@
 VDR Plugin 'vnsiserver' Revision History
 ----------------------------------------
 
+2026-02-14: Version 1.8.4
+
+- GCC 12 build fixes. Thanks to @wirbel-at-vdr-portal
+- Fix building below VDR source directory. Thanks to @wirbel-at-vdr-portal
+- Improve locking in processCHANNELS_GetChannels. Thanks to @wirbel-at-vdr-portal
+- Partially reverted checkExtend to what the initial developer had in mind.
+- Fix compiler warning suggest parentheses around assignment. Thanks to @heitbaum
+
 2023-02-11: Version 1.8.3
 
 - Fix crash when epg has no title. Thanks to @repojohnray
